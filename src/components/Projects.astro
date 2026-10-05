@@ -9,7 +9,9 @@ const icons = {
     "Leaflet": "fa-solid fa-leaf text-green-500",
     "Java": "fa-brands fa-java text-white",
     "MySQL": "fa-solid fa-database text-[#00628c]",
-    "Clerk": "fa-solid fa-user-lock text-[#7e7abd]"
+    "Clerk": "fa-solid fa-user-lock text-[#7e7abd]",
+    "Supabase": "fa-solid fa-bolt text-[#3ece90]",
+    "Python": "fa-brands fa-python text-[#4584b6]"
 };
 
 type Technology = keyof typeof icons;
@@ -45,19 +47,19 @@ const projectsContent: Record<'es' | 'en', Project[]> = {
             span: "md:col-span-3"
         },
         {
-            title: "Gestor Biblioteca",
-            slug: "App de escritorio",
-            description: "Aplicación de escritorio para gestionar una biblioteca, permitiendo el registro de libros, usuarios y préstamos.",
-            technologies: ["Java", "MySQL"],
-            link: "https://github.com/CesarOliva/GestorBiblioteca",
-            image: "/Images/Projects/GestorBiblioteca.webp",
+            title: "Vidriox",
+            slug: "Simulación + Demo",
+            description: "Simulación web interactiva de una máquina capaz de recibir, analizar, contar y clasificar botellas de vidrio postconsumo.",
+            technologies: ["React", "Typescript", "Python"],
+            link: "https://github.com/CesarOliva/Vidriox-Heineken",
+            image: "/Images/Projects/Vidriox.webp",
             span: "md:col-span-3"
         },
         {
             title: "Skillpath",
             slug: "IA + onboarding",
             description: "Plataforma de aprendizaje y onboarding con landing pública, panel admin, roadmaps generados con IA, manejo de habilidades, quizzes y carga de PDFs.",
-            technologies: ["Next.js", "Typescript", "Convex", "Clerk"],
+            technologies: ["Next.js", "Typescript", "Supabase"],
             link: "https://github.com/deltahbc2/Skillpath",
             image: "/Images/Projects/Skillpath.webp",
             span: "md:col-span-5"
@@ -84,19 +86,19 @@ const projectsContent: Record<'es' | 'en', Project[]> = {
             span: "md:col-span-3"
         },
         {
-            title: "Library Manager",
-            slug: "Desktop App",
-            description: "Desktop application for library management, including books, users, and loan tracking.",
-            technologies: ["Java", "MySQL"],
-            link: "https://github.com/CesarOliva/GestorBiblioteca",
-            image: "/Images/Projects/GestorBiblioteca.webp",
+            title: "Vidriox",
+            slug: "Simulation + Demo",
+            description: "Interactive web simulation of a machine capable of receiving, analyzing, counting, and classifying post-consumer glass bottles.",
+            technologies: ["React", "Typescript", "Python"],
+            link: "https://github.com/CesarOliva/Vidriox-Heineken",
+            image: "/Images/Projects/Vidriox.webp",
             span: "md:col-span-3"
         },
         {
             title: "Skillpath",
             slug: "AI + Onboarding",
             description: "Learning and onboarding platform with a public landing page, admin dashboard, AI-generated roadmaps, skill management, quizzes, and PDF uploads.",
-            technologies: ["Next.js", "Typescript", "Convex", "Clerk"],
+            technologies: ["Next.js", "Typescript", "Supabase"],
             link: "https://github.com/deltahbc2/Skillpath",
             image: "/Images/Projects/Skillpath.webp",
             span: "md:col-span-5"
